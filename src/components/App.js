@@ -20,9 +20,7 @@ const App = () => {
       <section className='lap-section'>
         <h2>Laps</h2>
         <section className='laps'>
-          <p>lap</p>
-          <p>lap</p>
-          <p>lap</p>
+    {laps.map((item) => <p>{item.toFixed(3)}</p>}}
         </section>
       </section>
     </div>
